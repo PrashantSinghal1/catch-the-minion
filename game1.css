@@ -1,0 +1,148 @@
+
+body{
+	background-image: url("m.jpg");
+    background-size: cover;
+    /*#FBE240*/
+    /*background-color: #3C74C0;*/
+}
+.title{
+       text-align: center;
+}
+
+#grid {
+	background-color: #FBE240;
+	background-opacity: -10px;
+    /*width: 276px; */
+    /*height: 276px;*/
+
+    margin-left: 20px;
+    margin-top: 50px;
+
+    border: 3px solid #000000;
+}
+
+.cell{
+    display:inline-block;
+    /*background-image: url("m2.png");*/
+    float: left;
+    cursor: pointer; 
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+
+    text-align: center;
+    font-size: 30px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+.score{
+	/*text-align: right;*/
+	float:right;
+	/*margin-top: -450px;*/
+	/*padding: 200px;*/
+	/*width: 50%;*/	
+	margin-right: 151px;
+
+	color: #FBE240;
+
+}
+.active {
+	background-image: url('m2.png')
+}
+#titleScreen {
+	border: 2px solid #333;
+	padding: 50px;
+	margin: 0 auto;
+	margin-top: 3em;
+	width: 50%;
+	/*height: 250px;*/
+	text-align: center;
+	background-color:#3C74C0; 
+	border-radius: 15px 50px;
+
+}
+#titleScreen h1 {
+	font-weight: normal;
+	color:  #FBE240;
+	font-size: 35px;
+}
+#titleScreen p {
+	font-weight: bold;
+	font-size: 20px;
+	color: #ccc;
+	text-align: left;
+}
+
+#titleScreen .vcard {
+	font-size: 15px;
+}
+
+#playButton
+{
+	border: 2px solid #385987;
+	background: #2a4b79;
+	color: #FBE240;
+	font-size: 13PX;
+	cursor: pointer;
+	padding: 8px 30px;
+}
+#playButton:hover {
+	border: 2px solid #385987;
+
+	background: #FBE240;
+	color: #3C74C0;
+}
+.power,.fullover,.loser,.bigwin{
+	display: none;
+}
+.hurry,.shout{
+	opacity: 0;
+}
+.timer{
+	color:#FBE240;
+}
+.over{
+	text-align: center;
+	    position: fixed;
+    top: 150px;
+    left: 307px;
+}
+}
+.over1{
+	text-align: center;
+    position: fixed;
+    margin-left: 421px;
+    margin-top: 157px;
+}
+.win{
+	text-align: center;
+    position: fixed;
+    margin-top: 101px;
+    margin-left: 434px;
+}
+.win1{
+     position: fixed;
+    margin-top: 138px;
+    margin-left: 331px;
+}
+.lose{
+	text-align: center;
+    position: fixed;
+    margin-top: 7px;
+    margin-left: 307px;
+}
+.lose1{
+	position: fixed;
+	margin-top: 100px;
+	margin-left: 357px;
+}
+.table {
+	display: inline-block;
+}
+/*.retry{
+	position: fixed;
+    margin-top: 197px;
+    margin-left: 815px;
+    background-color: 
+}*/
